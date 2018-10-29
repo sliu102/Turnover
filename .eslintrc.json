@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-inner-declarations": "off"
+  },
+  "globals": {
+    "HKEX": true,
+    "hkexUtils": true,
+    "moment": true,
+    "jQuery": true,
+    "$": true,
+    "PubSub": true,
+    "Granite": true,
+    "Mustache": true
+  }
+}
